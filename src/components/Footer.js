@@ -5,11 +5,12 @@ import { BsLinkedin, BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs"
 const Footer = () => {
   return (
     <>
-      <footer className='py-4'>
+      <footer className='top-footer py-4'>
         <div className='container-xxl'>
           <div className='row'>
+            <div className='col-4 text-white'>ALX E-Market</div>
             <div className='col-5'>
-              <div className='fooer-top-data d-flex gap-30 align-items-center'></div>
+              <div className='footer-top-data d-flex gap-30 align-items-center'></div>
             </div>
           </div>
         </div>
@@ -68,12 +69,12 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <footer className='py-3'>
+      <footer className='last-footer py-3'>
         <div className='container-xxl'>
           <div className='row'>
             <div className='col-12'>
               <p className='text-center mb-0 text-white'>
-                &copy; {new Date().getFullYear()}; Power by ALX E-Market
+                Copyright &copy; {new Date().getFullYear()}; Power by ALX E-Market
               </p>
             </div>
           </div>

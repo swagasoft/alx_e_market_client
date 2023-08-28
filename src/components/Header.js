@@ -31,26 +31,29 @@ const Header = () => {
               <span className="input-group-text p-3" id="basic-addon2"><BsSearch className='fs-6' /></span>
             </div></div>
             <div className='col-5'>
-              <div className='header-upper-links' d-flex align-items-center justify-conent-between>
+              <div className='header-upper-links d-flex align-items-center justify-content-between'>
                 <div>
-                  <Link className='d-flex'>
-                    <img BsArrowRepeat />
+                  <Link>
+                    <img src='' alt=''></img>
                     <p></p>
                   </Link>
                 </div>
                 <div>
                   <Link>
                     <img src='' alt=''></img>
+                    <p></p>
                   </Link>
                 </div>
                 <div>
                   <Link>
                     <img src='' alt=''></img>
+                    <p></p>
                   </Link>
                 </div>
                 <div>
                   <Link>
                     <img src='' alt=''></img>
+                    <p></p>
 
                   </Link>
                 </div>

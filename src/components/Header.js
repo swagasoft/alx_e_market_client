@@ -9,10 +9,10 @@ const Header = () => {
         <div className='container-xxl'>
           <div className='row'>
             <div className='col-6'>
-              <p className='text-white mb-0'>free shippings</p>
+              <p className='text-white mb-0'>Shop Now!</p>
             </div>
             <div className="col-6">
-              <p className="text-end text-white mb-0"> Hotline: <a className='text-white' href='tel:+234801000003'>+234801000003</a></p>
+              <p className="text-end text-white mb-0"> Free Shipping </p>
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@ const Header = () => {
                     <button class="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 
                       d-flex align-items-center" type="button" id="dropdownMenuButton1"
                       data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src='images/menu.png' />
+                      <img src='images/menu-down.png' />
                       <span className='me-3 inline-block'>Shop Categories</span>
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">

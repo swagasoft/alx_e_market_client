@@ -1,4 +1,7 @@
 import React from 'react';
+import { PRODUCTS } from '../products';
+
+import { Product } from "./product"
 
 const Home = () => {
   return (
@@ -6,9 +9,14 @@ const Home = () => {
       <section className='home-wrapper-1 py-5'>
         <div className='container'>
           <div className='row'>
-            <div className='col-6'>
-              <div className='main-banner-content py-3'>
-                <img src='images/image-2.jpg' style={{ width: "250px" }} />
+            <div className='col-2'>
+              <div className='shop'>
+                <div className='shopTitle'>
+                  <h> Emarex Shop</h>
+                </div>
+                <div className='products'> {PRODUCTS.map((product) => (
+                  <Product data={product} />
+                ))} </div>
               </div>
             </div>
           </div>

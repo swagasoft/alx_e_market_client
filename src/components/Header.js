@@ -56,7 +56,7 @@ const Header = () => {
                     </Link>
                   </div>
                   <div>
-                    <Link className='d-flex align-items-center gap-2 text-white mx-3p-px'>
+                    <Link to="cart" className='cart d-flex align-items-center gap-2 text-white mx-3p-px'>
                       <a href="" className='text-white'>
                         <BsCart className='fs-4' />
                       </a>

@@ -1,4 +1,4 @@
-import product1 from "./images/1.png";
+import one from "./images/one.png";
 import product2 from "./images/2.png";
 import product3 from "./images/3.png";
 import product4 from "./images/4.png";
@@ -12,7 +12,7 @@ export const PRODUCTS = [
         id: 1,
         productName: "IPhone",
         price: 999.0,
-        poductImage: product1,
+        poductImage: one,
     },
     {
         id: 2,

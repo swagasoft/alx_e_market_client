@@ -5,14 +5,17 @@ export const Product = (props) => {
     return (
         <>
             <section className='home-wrapper'>
-                <div className='product'>
-                    <img src={productImage} alt='' />
-                </div>
-                <div className='description'>
-                    <p>
-                        <b>{productName}</b>
-                    </p>
-                    <p>${price}</p>
+                <div className='container-xxl'>
+                    <div className='product'>
+                        <img src={productImage} alt='' />
+                    </div>
+                    <div className='description'>
+                        <p>
+                            <b>{productName}</b>
+                        </p>
+                        <p>${price}</p>
+                        <button className='toCart'>add to cart</button>
+                    </div>
                 </div>
             </section >
         </>

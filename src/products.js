@@ -6,12 +6,16 @@ import product5 from "./images/5.png";
 import product6 from "./images/6.webp";
 import product7 from "./images/7.webp";
 import product8 from "./images/8.webp";
+import product9 from "./images/9.jpg";
+import product10 from "./images/10.jpg";
+import product11 from "./images/11.jpg";
+
 
 export const PRODUCTS = [
   {
     id: 1,
-    productName: "IPhone",
-    price: 999.0,
+    productName: "IPhone 14 Pro Max",
+    price: 1299.0,
     productImage: product1,
   },
   {
@@ -55,5 +59,29 @@ export const PRODUCTS = [
     productName: "Face Cap",
     price: 13.0,
     productImage: product8,
+  },
+  {
+    id: 9,
+    productName: "HeadPhone 18",
+    price: 99.0,
+    productImage: product9,
+  },
+  {
+    id: 10,
+    productName: "Shoe",
+    price: 280.0,
+    productImage: product10,
+  },
+  {
+    id: 11,
+    productName: "Hand Bag",
+    price: 110.0,
+    productImage: product11,
+  },
+  {
+    id: 12,
+    productName: "Iphone 13",
+    price: 699.0,
+    productImage: product1,
   },
 ];

@@ -9,6 +9,7 @@ import product8 from "./images/8.webp";
 import product9 from "./images/9.jpg";
 import product10 from "./images/10.jpg";
 import product11 from "./images/11.jpg";
+import product13 from "./images/13.jpg";
 
 
 export const PRODUCTS = [
@@ -83,5 +84,11 @@ export const PRODUCTS = [
     productName: "Iphone 13",
     price: 699.0,
     productImage: product1,
+  },
+  {
+    id: 13,
+    productName: "Key Board",
+    price: 33.0,
+    productImage: product13,
   },
 ];

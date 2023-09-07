@@ -38,6 +38,7 @@ const Header = () => {
                       <img src='' alt=''></img>
                       <p></p>
                     </Link>
+
                   </div>
                   <div>
                     <Link className='d-flex align-items-center gap-2 text-white'>

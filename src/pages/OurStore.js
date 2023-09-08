@@ -7,9 +7,11 @@ const OurStore = () => {
   return (
     <>
       <div className='container-xxl'>
-        <div className='shopTitle'>
-          <h> Emarex Shop</h>
-        </div>
+        <section className="bg-dark text-white mb-3">
+          <h3 className="p-3  text-center font-weight-bold">
+            Our Store
+          </h3>
+        </section>
         <div className='products'> {PRODUCTS.map((product) => (
           <Product data={product} />
         ))} </div>

@@ -66,6 +66,10 @@ a {
   transform: translate3d(0px, 57px, 0px) !important;
   width: 100%;
 }
+
+.dropdown-item:hover {
+  color: var(--color-131921) !important;
+}
 /* Header part end*/
 
 /*Footer part start*/

@@ -8,6 +8,7 @@ import CarouselTwo from "./CarouselTwo";
 import CarouselThree from "./CarouselThree";
 import ProductCard from "./ProductCard";
 import { productList } from "../../products";
+import OurStore from "../OurStore";
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ const Home = () => {
             return <ProductCard product={product} />;
           })}
         </div>
+        <OurStore />
       </div>
     </>
   );

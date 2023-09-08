@@ -1,9 +1,9 @@
 import React from 'react';
 import { PRODUCTS } from '../products';
 
-import { Product } from "./product"
+import { Product } from "./product";
 
-const Home = () => {
+const OurStore = () => {
   return (
     <>
       <div className='container-xxl'>
@@ -18,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home
+export default OurStore;

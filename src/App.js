@@ -2,10 +2,11 @@ import React from "react";
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/homepage/Home2";
-import About from "./pages/About"
-import Contact from "./pages/Contact"
-import Header from "./components/Header"
+import Home from "./pages/homepage/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import OurStore from "./pages/OurStore";
+import Header from "./components/Header";
 import Cart from "./pages/Cart";
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="ourstore" element={<OurStore />} />
             <Route path="cart" element={<Cart />} />
           </Route>
         </Routes>

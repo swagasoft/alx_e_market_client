@@ -1,109 +1,46 @@
-import * as React from 'react';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import CommentIcon from '@mui/icons-material/Comment';
-import IconButton from '@mui/material/IconButton';
-
+import * as React from "react";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
 
 const SidePane = () => {
-
-    return (
-        <>
-    <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-    
-        <ListItem
-          disableGutters
-          secondaryAction={
-            <IconButton aria-label="comment">
-              <CommentIcon />
-            </IconButton>
-          }
-        >
+  return (
+    <>
+      <List sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
+        <ListItem>
           <ListItemText primary={`Supermarket`} />
         </ListItem>
 
-        <ListItem
-          disableGutters
-          secondaryAction={
-            <IconButton aria-label="comment">
-              <CommentIcon />
-            </IconButton>
-          }
-        >
+        <ListItem>
           <ListItemText primary={`Health and Beauty`} />
         </ListItem>
-        
-        <ListItem
-          disableGutters
-          secondaryAction={
-            <IconButton aria-label="comment">
-              <CommentIcon />
-            </IconButton>
-          }
-        >
+
+        <ListItem>
           <ListItemText primary={`Appliances`} />
         </ListItem>
-        
-        <ListItem
-          disableGutters
-          secondaryAction={
-            <IconButton aria-label="comment">
-              <CommentIcon />
-            </IconButton>
-          }
-        >
+
+        <ListItem>
           <ListItemText primary={`Phones and Tablets`} />
         </ListItem>
-        
-        <ListItem
-          disableGutters
-          secondaryAction={
-            <IconButton aria-label="comment">
-              <CommentIcon />
-            </IconButton>
-          }
-        >
+
+        <ListItem>
           <ListItemText primary={`Computing`} />
         </ListItem>
-        
-        <ListItem
-          disableGutters
-          secondaryAction={
-            <IconButton aria-label="comment">
-              <CommentIcon />
-            </IconButton>
-          }
-        >
+
+        <ListItem>
           <ListItemText primary={`Electronics`} />
         </ListItem>
-        
-        <ListItem
-          disableGutters
-          secondaryAction={
-            <IconButton aria-label="comment">
-              <CommentIcon />
-            </IconButton>
-          }
-        >
+
+        <ListItem>
           <ListItemText primary={`Fashion`} />
         </ListItem>
-   
-        
-        <ListItem
-          disableGutters
-          secondaryAction={
-            <IconButton aria-label="comment">
-              <CommentIcon />
-            </IconButton>
-          }
-        >
+
+        <ListItem>
           <ListItemText primary={`Baby Product`} />
         </ListItem>
-   
-    </List>
-        </>
-      );
-}
- 
+      </List>
+    </>
+  );
+};
+
 export default SidePane;

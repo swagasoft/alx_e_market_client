@@ -12,27 +12,27 @@ import { productList } from "../../products";
 const Home = () => {
   return (
     <>
-      <div className="row">
-        <div className="col-2">
-          <SidePane />
-        </div>
-
-        {/*Main  */}
-        <div className="col-10">
-          <div className="row">
-            <Carousel />
-            <CarouselTwo />
-            <CarouselThree />
+      <div className="container-fluid">
+        <div className="row">
+          {/*Main  */}
+          <div className="col-12">
+            <div className="rows d-flex gap-2 justify-content-between">
+              <Carousel />
+              <CarouselTwo />
+              <CarouselThree />
+            </div>
           </div>
-        </div>
-        {/* End main */}
-        <section className="bg-dark text-white mb-3">
-          <h3 className="p-3  text-center font-weight-bold">Deal of the Day</h3>
-        </section>
+          {/* End main */}
+          <section className="bg-dark text-white mb-3">
+            <h3 className="p-3  text-center font-weight-bold">
+              Deal of the Day
+            </h3>
+          </section>
 
-        {productList.map((product) => {
-          return <ProductCard product={product} />;
-        })}
+          {productList.map((product) => {
+            return <ProductCard product={product} />;
+          })}
+        </div>
       </div>
     </>
   );

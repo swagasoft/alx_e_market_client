@@ -87,16 +87,21 @@ const Header = () => {
                       <span className='me-3 inline-block'>Shop Categories</span>
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><Link className="dropdown-item text-white" to="">Another action</Link></li>
-                      <li><Link className="dropdown-item text-white" to="">Something else here</Link></li>
-                      <li><Link className="dropdown-item text-white" to="">Action</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Supermarket</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Health and Beauty</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Appliances</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Phones and Tablets</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Computing</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Electronics</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Fashion</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Baby Product</Link></li>
                     </ul>
                   </div>
                 </div>
                 <div className='menu-links'>
                   <div className='d-flex align-items-center gap-5'>
                     <NavLink to='/Home'> Home </NavLink>
-                    <NavLink to='/Our Store'> Our Store </NavLink>
+                    <NavLink to='/OurStore'> Our Store </NavLink>
                     <NavLink to='/Blogs'> Blogs </NavLink>
                     <NavLink to='/Contact'> Contact </NavLink>
                   </div>

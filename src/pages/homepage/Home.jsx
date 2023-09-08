@@ -24,18 +24,20 @@ const Home = () => {
             </div>
           </div>
           {/* End main */}
-          <section className="bg-dark text-white mb-3">
-            <h3 className="p-3  text-center font-weight-bold">
-              Deal of the Day
-            </h3>
-          </section>
+          <div className="col-12">
+            <section className="bg-dark text-white mb-3">
+              <h3 className="p-3  text-center font-weight-bold">
+                Deal of the Day
+              </h3>
+            </section>
+          </div>
 
           {productList.map((product) => {
             return <ProductCard product={product} />;
           })}
         </div>
-        <OurStore />
       </div>
+      <OurStore />
     </>
   );
 };

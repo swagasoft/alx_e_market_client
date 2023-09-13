@@ -105,7 +105,7 @@ footer.last-footer {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
-  background-color: #fff; /* Set your desired background color */
+  background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
@@ -116,7 +116,7 @@ footer.last-footer {
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background-color: #f9f9f9; /* Set your desired background color */
+  background-color: #f9f9f9;
   text-align: center;
 }
 
@@ -140,7 +140,7 @@ footer.last-footer {
 
 .product-price {
   font-size: 16px;
-  color: var(--color-1c4141); /* Use your desired text color */
+  color: var(--color-1c4141);
 }
 
 .product-description {
@@ -148,24 +148,99 @@ footer.last-footer {
 }
 
 .toCart {
-  background-color: var(
-    --color-1c4141
-  ); /* Set your desired button background color */
-  color: #fff; /* Set your desired button text color */
-  border: 2px solid var(--color-1c4141); /* Set your desired button border color */
+  background-color: var(--color-1c4141);
+  color: #fff;
+  border: 2px solid var(--color-1c4141);
   min-width: 100px;
-  padding: 10px 20px; /* Set your desired padding (top/bottom, left/right) */
+  padding: 10px 20px;
   border-radius: 15px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .toCart:hover {
-  background-color: #fff; /* Set your desired button hover background color */
-  color: var(--color-1c4141); /* Set your desired button hover text color */
-  border-color: var(
-    --color-1c4141
-  ); /* Set your desired button hover border color */
+  background-color: #fff;
+  color: var(--color-1c4141);
+  /border-color: var(--color-1c4141);
 }
 
 /* Product Display Section End */
+
+.cart {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.cart h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cart .checkout {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart .checkout p {
+  font-size: 18px;
+}
+
+.cart button {
+  background-color: var(
+    --color-1c4141
+  ); /* Set your desired button background color */
+  color: #fff; /* Set your desired button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cart button:hover {
+  background-color: #333; /* Set your desired button hover background color */
+}
+
+.cart {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.cart h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cart .checkout {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart .checkout p {
+  font-size: 18px;
+}
+
+.cart button {
+  background-color: var(
+    --color-1c4141
+  ); /* Set your desired button background color */
+  color: #fff; /* Set your desired button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cart button:hover {
+  background-color: #333; /* Set your desired button hover background color */
+}
